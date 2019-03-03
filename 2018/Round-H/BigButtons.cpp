@@ -49,7 +49,7 @@ long long solutionToProblem(long long  n, vector<string> &a, int p){
 int main(){
     int testcases;
     cin >> testcases;
-    for(int testcase = 1; testcase < testcases; testcase++){
+    for(int testcase = 1; testcase <= testcases; testcase++){
         long long n,p;
         cin >> n >> p;
         vector<string> f(p);
